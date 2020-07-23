@@ -1,0 +1,120 @@
+
+.conteudoMeusLivros{
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 125px;
+  margin-left: 12%;
+}
+.historia{
+  border: solid #506EFA;
+}
+
+
+.Livros{
+  width: 80%;
+  overflow: hidden;
+}
+.Livros h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #506EFA;
+  padding-bottom: 23px;
+  border-bottom: #506EFA solid;
+  width: 198.5px;
+}
+
+.Feed{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 68vh;
+}
+.scrollbar{
+  margin-top: 25px;
+  height: 90vh;
+  width: 99%;
+  overflow: hidden;
+}
+
+.meuslivros{
+  background: none;
+  width: 100%;
+  height: max-content;
+  border: 0.5px solid #506EFA;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #506EFA;
+  max-height: 250px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.meuslivros h3{
+  font-size: 12px;
+  line-height: 15px;
+}
+.meuslivros p{
+  margin-top: 15px;
+  margin-bottom: -20px;
+  font-size: 13px;
+  width: 90%;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #96A8FC;
+}
+
+
+.headline{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.headline input{
+  width: 189px;
+  height: 40px;
+  border: none;
+  background: #D8D8D8;
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 15px;
+}
+.headline button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #506EFA;
+  border-radius: 15px 5px 5px 15px;
+  margin-right: -2px;
+  z-index: 999;
+}
+.search{
+  color: white;
+  font-size: medium;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.headline button:hover{
+  background: #96A8FC;
+}
+.btnDeleta{
+  background: none;
+  border: none;
+  margin-top: -25px;
+  position: absolute;
+  cursor: pointer;
+}

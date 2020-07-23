@@ -1,0 +1,14 @@
+.favoritos{
+  margin-left: 13%;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #506EFA;
+}
+
+.vetor404{
+  width: 450px;
+}

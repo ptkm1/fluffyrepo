@@ -1,0 +1,179 @@
+*{font-family: 'Fredoka One', cursive; font-weight: 500;}
+body{
+  display: flex;
+  width: 98vw;
+  height: 100px;
+  flex-direction: row;
+}
+
+.iconMenu{
+  margin-right: 15px;
+}
+
+/* CONTEUDO DO SITE */
+.conteudoDashboard{
+  background: #fff;
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  margin-left: 12%;
+}
+
+.Livros{
+  width: 80%;
+  overflow: hidden;
+}
+.Livros h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #506EFA;
+  padding-bottom: 23px;
+  border-bottom: #506EFA solid;
+  width: 198.5px;
+}
+
+.Feed{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 65vh;
+}
+.scrollbar{
+  margin-top: 15px;
+  height: 85vh;
+  width: 99%;
+  overflow: hidden;
+}
+
+.livro{
+  background: none;
+  width: 90%;
+  height: max-content;
+  border: 0.5px solid #506EFA;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #506EFA;
+  max-height: 250px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.livro h3{
+  font-size: 12px;
+  line-height: 15px;
+}
+.livro p{
+  margin-top: 5px;
+  font-size: 13px;
+  width: 90%;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: #96A8FC;
+}
+
+
+.headline{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.headline input{
+  width: 189px;
+  height: 40px;
+  border: none;
+  background: #D8D8D8;
+  border-radius: 0px 15px 15px 0px;
+  padding-left: 15px;
+}
+.headline button{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #506EFA;
+  border-radius: 15px 5px 5px 15px;
+  margin-right: -2px;
+  z-index: 999;
+}
+.search{
+  color: white;
+  font-size: medium;
+  margin-top: 3px;
+  cursor: pointer;
+}
+.headline button:hover{
+  background: #96A8FC;
+}
+
+/* Categorias */
+.categorias{
+  height: 90%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.categorias h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  color: #506EFA;
+  padding-bottom: 23px;
+  border-bottom: #506EFA solid;
+  width: 198.5px;
+  text-align: right;
+}
+.categorias ul{
+  list-style: none;
+  color: #506EFA;
+}
+.categorias li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.color{
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+.um{
+  background-color: tomato;
+}
+.dois{
+  background-color: teal;
+}
+.tres{
+  background-color: #FFB8B8;
+}
+.quatro{
+  background-color: #506EFA;
+}
+.cinco{
+  background-color: #96A8FC;
+}
+.seis{
+  background-color: turquoise;
+}
+.sete{
+  background-color: steelblue;
+}

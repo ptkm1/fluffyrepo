@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hammersmith+One&display=swap');
+
+*{padding: 0;margin: 0;box-sizing: border-box;outline: none;text-decoration: none; -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: antialiased;}
+header{
+  height: 50px;
+  margin-top: 45px;
+  padding-left: 65px;
+  padding-right: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuHome{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: 400;
+}
+
+.linkComum{
+  margin: 35px;
+  color: #506EFA;
+}
+.linkComum:hover{
+  color: #96A8FC;
+}
+
+.linkBotao{
+  color: white;
+  background: #506EFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 45px;
+  padding-top: 3px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+
+
+.linkBotao:hover{
+  background: #96A8FC;
+}
+
+.conteudosH{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+.esquerda{
+  width: 50%;
+  font-weight: 400;
+}
+.esquerda h1{
+  color: #96A8FC;
+  margin-bottom: 25px;
+}
+.esquerda p{
+  color: #44475a;
+  margin-left: 5px;
+  margin-bottom: 45px;
+}

@@ -1,0 +1,111 @@
+.editor{
+  width: 95%;
+  height: 100vh;
+  margin-left: 13%;
+}
+
+
+.headline{
+  margin-top: 100px;
+}
+
+.conteudoEditor{
+  border-radius: 15px;
+  width: 80%;
+  height: 80vh;
+  margin-top: 25px;
+}
+
+.conteudoEditor .historia{
+  border: none;
+  margin-top: 10px;
+  width: 90%;
+  height: max-content;
+}
+
+
+.editorTitulo input{
+  background: none;
+  border: solid #506EFA;
+  width: 20%;
+  height: 60px;
+  padding-left: 15px;
+}
+
+.configs{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/*Filtrar dps o que nao usa */
+
+.inputsAlterar{
+  margin: 5px;
+  padding: 10px;
+  padding-left: 0px;
+  width: max-content;
+}
+
+.inputAlterar{
+  border: none;
+  background: #F3F3F5;
+  border-radius: 15px;
+  padding-left: 15px;
+  width: 300px;
+  height: 50px;
+  font-size: 17.5px;
+  color: #96A8FC;
+}
+
+#historia{
+  margin: 0 auto;
+}
+
+.infoInputAlterar{
+  width: 200px;
+  font-size: 25px;
+}
+
+.atualizarInformacoes{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #506EFA;
+}
+.btnAlterar{
+  background: #506EFA;
+  border: none;
+  border-radius: 15px;
+  height: 50px;
+  width: 150px;
+  padding:5px;
+  color: white;
+  cursor: pointer;
+}
+.btnAlterar:hover{
+  background: #96A8FC;
+}
+.descricaoAlterar{
+  border: none;
+  background: #F3F3F5;
+  border-radius: 15px;
+  padding: 15px;
+  width: 300px;
+  height: 150px;
+  font-size: 17.5px;
+  resize: none;
+  color: #96A8FC;
+}
+.alterarInformacoes{
+  position: fixed;
+  margin-left: 68%;
+  margin-top: 150px;
+}
+.toRow{
+  display: flex;
+  margin-top: 100px;
+}

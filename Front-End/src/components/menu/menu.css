@@ -1,0 +1,73 @@
+
+.menu{
+  background: #fafafa;
+  width: 12%;
+  height: 100vh;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  z-index: 999;
+}
+.perfil{
+  color: #506EFA;
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 125px;
+}
+.img{
+  background: #506EFA;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 12px;
+  border-radius: 100%;
+}
+.img img{
+  border-radius: 100%;
+}
+.botoesMenu{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 265px;
+}
+.btnMenu{
+  color: #D8D8D8;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.btnMenu:hover{
+  color: #96A8FC;
+}
+
+.menu{
+  position: fixed;
+}
+.btnMenu{
+  color: #506EFA;
+}
+.btnMenuActive{
+  color: #96A8FC;
+}
+
+.botaoDeslogar{
+  border: none;
+  background: none;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  color: #506EFA;
+  cursor: pointer;
+}
+.botaoDeslogar:hover{
+  color: #96A8FC;
+}
