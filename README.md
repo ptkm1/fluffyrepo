@@ -1,5 +1,5 @@
 <img src="https://raw.githubusercontent.com/ptkm1/fluffyrepo/a5c29e5a2055d99b617cfda6dd259fbea80e3b81/Front-End/src/media/Logo.svg"/>
-<img src="/repositorio/index.svg"/>
+<img src="/repositorio/Index.svg"/>
 <img src="/repositorio/Dashboard.svg"/>
 
 # Fluffy
